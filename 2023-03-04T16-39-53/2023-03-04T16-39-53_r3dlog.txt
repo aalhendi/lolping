@@ -1,0 +1,99 @@
+000000.000| ALWAYS| Logging started at 2023-03-04T16:39:53.479
+000000.023| ALWAYS|   CFG| CrashHandler(Sentry)
+000000.127| ALWAYS|   CFG| Command Line:  "162.249.77.193 5184 29IEK74mh24CF+ouNjlYxA== 150742302" "-Product=LoL" "-PlayerID=150742302" "-GameID=6301664070" "-GameBaseDir=G:\Program Files\Riot Games\League of Legends" "-Region=EUW" "-PlatformID=EUW1" "-Locale=en_GB" "-SkipBuild" "-EnableCrashpad=true" "-EnableLNP" "-UseDX11=1:1" "-UseMetal=0:1" "-UseNewX3D" "-UseNewX3DFramebuffers" "-RiotClientPort=50144" "-RiotClientAuthToken=rQefw__FPhvkeJ9ch7AjEQ" 
+000000.442| ALWAYS| Live Profiling enabled. Will overwrite old RPD.
+000000.445| ALWAYS|   CFG| Build Version: Version 13.4.494.1549 (Feb 23 2023/13:51:24) [PUBLIC] <Releases/13.4> ChangeList: 4941549
+000000.500| ALWAYS| LCURemotingClient: Initializing on port 50144
+000000.555| ALWAYS| LCURemotingClient: Connected to app process.
+000000.573| ALWAYS|  FLOW| Initializing Renderer
+000000.573| ALWAYS| r3dRenderLayer::Init enter
+000000.573| ALWAYS| r3dRenderLayer::Init() exit successfully
+000000.691| ALWAYS| rr3dRenderLayer::InitDevice(XRes = 2560, YRes = 1440, BPP = 32) enter
+000000.691| ALWAYS| rr3dRenderLayer::InitDevice: Creating X3D device
+000000.692| ALWAYS| DXGI version: 1.6
+000000.693| ALWAYS| Detected Adapter 'NVIDIA GeForce RTX 2080 Ti'
+000000.698| ALWAYS| DXGI: Tearing support enabled.
+000001.182| ALWAYS| DX11 feature level: 11.0
+000001.401| ALWAYS| Using X3D Platform: DX11
+000001.423| ALWAYS| X3D: Focus Gained
+000001.434| ALWAYS| r3dRenderLayer::RecreateOwnedResources
+000001.434| ALWAYS| r3dRenderLayer::InitResources exit successfully
+000001.575| ALWAYS| AudioManager: Wwise Version v2019.1.10 initialized.
+000001.811| ALWAYS| GameStartData::GameID=6301664070
+000001.823| ALWAYS| LCURemotingClient: Initializing on port 50144
+000001.826| ALWAYS|  CONN| Connecting to address (162.249.77.193) port (5184)
+000001.829| ALWAYS|  CONN| Waiting for response from game server...
+000001.831| ALWAYS| LCURemotingClient: Connected to app process.
+000002.037| ALWAYS| LCUChatClientAsync: Chat session is "loaded".
+000002.080| ALWAYS|  CONN| Hard Connect at LocalSimTime(0.000)
+000002.106| ALWAYS| ALE-M1UGR2ZG 0.019745
+000002.108| ALWAYS| ALE-M1UGR2ZG 0.022113
+000002.108| ALWAYS| ALE-M1UGR2ZG 0.022125
+000002.108| ALWAYS| ALE-M1UGR2ZG 0.022131
+000002.298| ALWAYS|  CONN| Game Info Received ServerSimTime(0.000) PreviousDisconnectCount(0)
+000002.298| ALWAYS|  ROST| CONNECTION READY | TeamOrder 0) 'Okaygooglle' - Champion(Sion) SkinID(0) TeamBuilderRole(TOP) PUUID(bd4db2b2-c691-5f61-bbe7-b1d330331c1d) ConnectionState(Disconnected)
+000002.298| ALWAYS|  ROST| CONNECTION READY | TeamOrder 1) 'Zanfusx' - Champion(Talon) SkinID(5) TeamBuilderRole(JUNGLE) PUUID(314a0a9f-b553-53f9-823d-a70dc72309aa) ConnectionState(Connected)
+000002.298| ALWAYS|  ROST| CONNECTION READY | TeamOrder 2) 'Mineralogia' - Champion(Brand) SkinID(11) TeamBuilderRole(MIDDLE) PUUID(51a048a5-d21d-56db-bbe4-65833a2185f8) ConnectionState(Disconnected)
+000002.298| ALWAYS|  ROST| CONNECTION READY | TeamOrder 3) 'marioacs' - Champion(Jinx) SkinID(3) TeamBuilderRole(BOTTOM) PUUID(011732d1-3a53-5a7e-b43a-6ee76c4b1d65) ConnectionState(Disconnected)
+000002.298| ALWAYS|  ROST| CONNECTION READY | TeamOrder 4) 'PaintSniffer3000' **LOCAL** - Champion(Ashe) SkinID(11) TeamBuilderRole(UTILITY) PUUID(7a3600bc-d291-5b34-9862-d09a4edf4c58) ConnectionState(Connected)
+000002.298| ALWAYS|  ROST| CONNECTION READY | TeamChaos 0) 'league killer 14' - Champion(Illaoi) SkinID(0) TeamBuilderRole(TOP) PUUID(6f9124a0-fba2-51a4-a869-a7a84142cc4a) ConnectionState(Connected)
+000002.298| ALWAYS|  ROST| CONNECTION READY | TeamChaos 1) 'Xappi' - Champion(MasterYi) SkinID(0) TeamBuilderRole(JUNGLE) PUUID(20493f75-5d47-55fa-ac5f-93aeb9eddbac) ConnectionState(Connected)
+000002.298| ALWAYS|  ROST| CONNECTION READY | TeamChaos 2) 'Rehtus' - Champion(Veigar) SkinID(8) TeamBuilderRole(MIDDLE) PUUID(9a98f477-64b3-5ee1-b08c-5991734d1e78) ConnectionState(Connected)
+000002.298| ALWAYS|  ROST| CONNECTION READY | TeamChaos 3) 'Mirryos' - Champion(Kaisa) SkinID(0) TeamBuilderRole(BOTTOM) PUUID(d00fae5e-57c8-50ab-9501-14b9b719e110) ConnectionState(Disconnected)
+000002.298| ALWAYS|  ROST| CONNECTION READY | TeamChaos 4) 'Dondaniezly' - Champion(Nautilus) SkinID(0) TeamBuilderRole(UTILITY) PUUID(5f29b73f-b61e-5092-80c7-b0b608dae562) ConnectionState(Disconnected)
+000002.299| ALWAYS|   CFG| MultiplayerSettings Encryption=true Compression=true MinimumSizeToCompressPayloadThreshold=0 CompressionLevel=3 Logging=false Wireless=false Redundancy=false Threshold=0 Resends=20 Timeout=8.000 TimeoutDisplay=3.000 MinLatency=0.000 
+000002.309| ALWAYS|  CONN| Game Server Connection Established after 0.480 seconds, 0 retries
+000002.837| ALWAYS| Set focus to app
+000002.838| ALWAYS|   CFG| OS Version: 10  Professional, x64 CPU: Intel(R) Core(TM) i9-9900K CPU @ 3.60GHz, 3650Mhz (8 cores) Instruction Set Level 7Physical memory: 34359738368Display info: NVIDIA GeForce RTX 2080 Ti 4293918720 31.0.15.2686 Driver: 31.0.15.2686
+000002.850| ALWAYS| LCURemotingClient: Initializing on port 50144
+000002.857| ALWAYS| LCURemotingClient: Connected to app process.
+000002.860| ALWAYS| LCUVoiceChatClient: Disabling voice, channel not available at startup
+000003.320| ALWAYS|  FLOW| Begin Async Loading
+000004.524| ALWAYS|  LOAD| LOADING: Begin Game Object Update
+000004.539| ALWAYS|  LOAD| LOADING: End Game Object Update
+000005.416| ALWAYS| PreloadGlobalEffects
+000005.483| ALWAYS| PreloadGlobalEffects Finished
+000009.524| ALWAYS|  FLOW| Async Loading Complete
+000009.539| ALWAYS|  FLOW| Data Load Complete
+000009.539| ALWAYS|  FLOW| Start Main Loop
+000009.672| ALWAYS|  FLOW| Switching Game State from GAMESTATE_PREGAME to GAMESTATE_SPAWN for reason Received StartSpawn packet.
+000010.479| ALWAYS|  FLOW| Spawning completed
+000010.482| ALWAYS|  FLOW| SEJ-BC89AC41
+000010.494| ALWAYS|  FLOW| SEJ-6671BCAD
+000030.542| ALWAYS|  FLOW| Switching Game State from GAMESTATE_SPAWN to GAMESTATE_GAMELOOP for reason Received Game Start Packet.
+000030.634|  ERROR| >>> BuffHashMap::HashToName - Match not found for hash 025cee41
+000030.664| ALWAYS|  FLOW| SEJ-8711AB1A 0.0648673
+000030.752| ALWAYS|  FLOW| SEJ-9651ACAB
+000030.760| ALWAYS|  FLOW| SEJ-B2890C00
+000030.766| ALWAYS| GAMESTATE_GAMELOOP UpdateVis
+000030.796| ALWAYS| GAMESTATE_GAMELOOP AudioUpdate
+000030.796| ALWAYS| GAMESTATE_GAMELOOP EndRender & EndFrame
+000030.801| ALWAYS|  FLOW| SEJ-891ACC45
+000030.801| ALWAYS| Enabling System Load Monitoring: 1000ms
+000124.544| ALWAYS| ALE-MM44G8Q7 (120.0109941 3.949866 0.132618 0.001193)
+001899.150| ALWAYS|  FLOW| Switching Game State from GAMESTATE_GAMELOOP to GAMESTATE_ENDGAME for reason Received Game End Packet.
+001899.150| ALWAYS|  FLOW| ALE-8SDFH23F
+001902.266| ALWAYS|  FLOW| Switching Game State from GAMESTATE_ENDGAME to GAMESTATE_PRE_EXIT for reason RiotUI End of Game Message Handled
+001902.273| ALWAYS|  CONN| Requesting disconnect (22)
+001902.273| ALWAYS|  FLOW| Switching Game State from GAMESTATE_PRE_EXIT to GAMESTATE_EXIT for reason PreExit Game State is Complete.
+001902.280| ALWAYS|  FLOW| Finished Main Loop
+001902.315| ALWAYS| =================== Perf Stats (all in ms) =========================
+001902.315| ALWAYS| Average Frame Time:    7.16
+001902.315| ALWAYS| Average FPS:           139.74 fps
+001902.315| ALWAYS| StdDev Frame Time:     0.87
+001902.315| ALWAYS| Max Frame Time:        49.78
+001902.315| ALWAYS| Ave GPU Frame Time:    1.20
+001902.315| ALWAYS| StdDev GPU Frame Time: 0.47
+001902.315| ALWAYS| Max GPU Frame Time:    6.77
+001902.315| ALWAYS| Histogram Buckets:     [0.0,1.0,2.0,5.0,7.5,10.0,18.0,35.0,50.0,75.0,100.0,500.0,1000.0,340282346638528859811704183484516925440.0]
+001902.315| ALWAYS| Frame Time Histogram:  [0,0,0,339,199946,57401,3378,14,2,0,0,0,0,0]
+001902.315| ALWAYS| GPU Time Histogram:    [0,97491,146875,16708,6,0,0,0,0,0,0,0,0,0]
+001902.315| ALWAYS| Max Memory Allocated = 758.047MB
+001902.519| ALWAYS|  FLOW| Cleanup Complete
+001902.526| ALWAYS|  FLOW| LCU Game End Status: GAMEFLOW_EVENT.GAME_COMPLETED Result: 200: SUCCESS
+001902.721| ALWAYS|  FLOW| ALE-8SDFH23F
+001902.729| ALWAYS| {"exit_code":"EXITCODE_NONE","messageType":"riot__game_client__connection_info","message_body":"Game exited"}
+001902.731| ALWAYS| AudioManagerWwise::Finit
+001902.776| ALWAYS|  FLOW| Destroying the renderer
+001902.776| ALWAYS| r3dRenderLayer::Close() enter
+001903.202| ALWAYS| r3dRenderLayer::Close() exit
